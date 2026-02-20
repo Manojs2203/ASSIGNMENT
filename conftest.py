@@ -11,9 +11,8 @@ from Drivers.Driver_Factory import DriverFactory
 
 @pytest.fixture(scope="function")
 def driver():
-    """
-    Pytest fixture for browser setup and teardown.
-    """
+
+   ## Pytest fixture for browser setup and teardown.
 
     driver = DriverFactory.get_driver()
     driver.maximize_window()

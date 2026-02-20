@@ -3,9 +3,9 @@ import os
 
 
 def get_config():
-    """
-    Reads config.yaml file and returns configuration dictionary.
-    """
+
+   ### Reads config.yaml file and returns configuration dictionary.
+
 
     config_path = os.path.join(
         os.path.dirname(os.path.dirname(__file__)),
